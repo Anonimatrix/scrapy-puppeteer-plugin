@@ -1,0 +1,53 @@
+{
+  "name": "@xkairo/scrapy-puppeteer-plugin",
+  "version": "0.1.0",
+  "description": "Puppeteer integration to Scrapy library",
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "typings": "dist/main.d.ts",
+  "scripts": {
+    "lint:fix": "eslint --ext .ts . --fix",
+    "lint": "eslint --ext .ts .",
+    "build": "tsc",
+    "start": "tsc && node dist/main.js"
+  },
+  "keywords": [
+    "scrapy",
+    "scraping",
+    "web scraping",
+    "crawler",
+    "web crawler",
+    "puppeteer",
+    "puppeteer-extra",
+    "typescript",
+    "tsyringe",
+    "csv",
+    "json",
+    "jsonl",
+    "jsonlines",
+    "json",
+    "scraper",
+    "scrap",
+    "scrapy-plugin",
+    "scrap plugin",
+    "plugin"
+  ],
+  "author": "Ezequiel Imaz <tavelliezequiel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@xkairo/scrapy-interfaces": "^0.2.0",
+    "puppeteer": "^19.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin": "^3.2.3"
+  }
+}
