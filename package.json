@@ -1,6 +1,6 @@
 {
   "name": "@xkairo/scrapy-puppeteer-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Puppeteer integration to Scrapy library",
   "main": "dist/main.js",
   "files": [
@@ -45,7 +45,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@xkairo/scrapy-interfaces": "^0.2.0",
+    "@xkairo/scrapy-interfaces": "^0.2.6",
     "puppeteer": "^19.11.1",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin": "^3.2.3"
